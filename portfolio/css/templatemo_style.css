@@ -42,6 +42,7 @@ button{
 	 	text-align: center;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; 
 	  font-size: 1.2em;
+      opacity:0.6;
 }
 
 button:active {
@@ -51,12 +52,15 @@ button:active {
 
 .hireme-home {
 		color: #FFF;
-		background: #686cc8;
+		background: black;
 	  -webkit-box-shadow: 0 3px 1px #64950d;
 		   -moz-box-shadow: 0 3px 1px #64950d;
-		   		  box-shadow: 0 3px 1px #080808;
+		   		  box-shadow: 0 3px 1px grey;
 }
-.hireme-home:hover {background: #686cc8;}
+.hireme-home:hover {
+    background: black;
+    opacity:1;
+}
 .hireme-home:active {
 	  -webkit-box-shadow: 0 1px 1px #64950d;
 		   -moz-box-shadow: 0 1px 1px #64950d;
@@ -351,6 +355,7 @@ h6 {
     background-color: #e5e8ed;
     text-align: center;
     padding: 40px;
+    opacity:0.6;
 }
 
 .logo-wrapper h1 {
@@ -393,9 +398,10 @@ h6 {
 
 .menu-wrapper a.toggle-menu {
     display: block;
-    background-color: #686cc8;
+    background-color: black;
     color: white;
     text-align: center;
+    opacity:0.6;
 }
 
 .menu-wrapper a.toggle-menu i {
@@ -418,12 +424,13 @@ h6 {
 #prevslide, #nextslide {
     width: 40px;
     height: 40px;
-    background-color: #686cc8;
+    background-color: black;
     color: white;
-    opacity: 1 !important;
+    opacity: 0.6;
     cursor: pointer;
     text-align: center;
     line-height: 40px;
+
 }
 
 #prevslide i, #nextslide i {
@@ -434,7 +441,7 @@ h6 {
     About Styling
    ========================================================================== */
 .text-dec{
-    color:#686cc8;
+    color:#656566;
 }
 .toggle-content {
     margin-top: 30px;
@@ -465,6 +472,7 @@ padding:0px;
     background-clip: padding-box;
   /* stops bg color from leaking outside the border: */
     display: block;
+    opacity: 0.6;
 }
 
 .icon-item i {
@@ -472,8 +480,9 @@ padding:0px;
 }
 
 .icon-item.active {
-    background-color: #d8aa46;
+    background-color: white;
     color: white;
+    opacity:1;
 }
 
 ul.tabs {

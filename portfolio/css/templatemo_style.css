@@ -67,7 +67,10 @@ button:active {
 		     		box-shadow: 0 1px 1px #64950d;
 }
 
-
+.edu-btm-tittle{
+    margin:35px 0 0 0px;
+    width:90%;
+}
 hr {
     display: block;
     height: 1px;
@@ -273,10 +276,17 @@ body {
     font-weight: 300;
     color: #777777;
     background-color: #4c4c4c;
-}
-
+}.edu-btm-tittle h5:hover{
+     transform: scale(1.1); 
+ }
+ .edu-btm-tittle label{
+     text-decoration:underline;
+ }
+ .edu-btm-tittle label:hover{
+      transform: scale(1.1);
+ }
 a {
-    color: #d8aa46;
+    color: #656566;
     text-decoration: none !important;
     -webkit-transition: all 200ms ease-in;
     -moz-transition: all 200ms ease-in;
@@ -286,7 +296,8 @@ a {
 }
 
 a:hover {
-    color: #d8aa46;
+    color: BLACK;
+    transform: scale(1.1);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -493,7 +504,7 @@ ul.tabs {
 .member-item {
     
     overflow: hidden;
-    
+        margin: 0 0 24px 0px;   
     background-color: white;
     text-align: center;
     -webkit-border-radius: 10px;
@@ -507,8 +518,15 @@ ul.tabs {
     overflow: hidden;
 }
 
+
 .member-item .thumb img {
-    width: 100%;
+    
+    height:170px;
+}
+
+.member-item .thumb a {
+    margin:0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
 }
 
 .member-item h4 {
@@ -517,7 +535,8 @@ ul.tabs {
 
 .member-item span {
     text-transform: uppercase;
-    color: #d8aa46;
+    color: black;
+    
     font-weight: 600;
 }
 

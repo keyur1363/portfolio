@@ -1,4 +1,4 @@
-
+var path = window.location.pathname;
 
 
 (function (window, $) {
@@ -23,7 +23,7 @@
 
     /****download resume****/
 	$('#d-resume1').click(function () {
-	    window.location.href= window.location.protocol + "//" + window.location.host + "/Keyur_Resume.pdf";
+	    window.location.href= window.location.protocol + "//" + window.location.host +path+"Keyur_Resume.pdf";
 	});
 
     /************** Open Different Pages *********************/

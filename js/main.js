@@ -1,9 +1,9 @@
-var path = window.location.pathname;
+
 
 
 (function (window, $) {
 	'use strict';
-
+	var path = window.location.pathname;
 	// Cache document for fast access.
 	var document = window.document;
 

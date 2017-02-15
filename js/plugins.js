@@ -1322,7 +1322,7 @@
                       '</div>' +
                       '<div href="#" class="lightbox-caption"><p></p></div>' +
                       '<div class="lightbox-center"><img src="images/imageedit_2_2678830340.gif" height="100" width="100" /><span id="Cheading">Compindia Technologies</span><div id="pro-title"><label>Project Title: E-Community</label></div></br><div id="pro-des"><label>Description:</label></br><p>A social network community that represents and connects people who share common interests in a certain area.</p></div></br><div id="pro-tech"><label>Technology Used:</label></br><p>ASP.NET Framework 4.0, C# .NET, HTML 5, CSS3, JavaScript, MS SQL Database.</p></div></div>' +
-                      '</div>'
+                               '</div>'
                       //$('#lightbox').html()
                     );
 

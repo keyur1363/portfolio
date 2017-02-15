@@ -9,10 +9,11 @@
 
 
 	/************** Toggle Menu *********************/
-	$('a.toggle-menu').click(function(){
-        $(".menu").slideToggle(400);
-		return false;
-    });
+	$(".menu").show();
+	//$('a.toggle-menu').click(function () {
+    //    $(".menu").slideToggle(500);
+	//	return false;
+    //});
 
 
     /****buttonclick try me********/
